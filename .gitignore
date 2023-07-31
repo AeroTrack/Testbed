@@ -12,5 +12,6 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
-# CMake Build Folder
+# CMake Build Folder, excluding export file
 build/*
+!build/*.uf2
